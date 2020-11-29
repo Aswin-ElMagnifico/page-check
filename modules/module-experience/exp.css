@@ -1,0 +1,121 @@
+.projects-row {
+    margin:100px 10%; 
+    /* margin-left: 100px;  */
+}
+
+.img-disp {
+    width: 100%;
+}
+
+.cards {
+    padding: 2rem;
+}
+
+.card-title{
+    padding: 7px;
+}
+
+.card-text {
+    padding: 10px;
+    text-align: left;
+}
+
+.boot-btn {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.boot-btn:hover {
+    text-decoration: none;
+}
+
+.boot-btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.boot-btn-primary:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.button-disp {
+    text-align: left;
+    padding:  0 7px;
+}
+
+.boot-btn-outline-primary {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+.boot-btn-outline-primary:hover {
+    background-color: #007bff;
+}
+
+.work {
+    margin: 20px auto 100px auto;
+}
+.work a {
+    margin: 0;
+}
+
+.work p {
+    line-height: 2;
+}
+
+.work ul {
+    list-style-position: inside;
+}
+
+.work-section {
+    margin: 100px auto 100px;
+}
+
+.work li a {
+    font-weight: 800;
+}
+
+.work-row {
+    margin: 50px auto;
+    padding: 0 10%;
+    text-align: left;
+}
+.work-img {
+    position: relative;
+    float: right;
+    width: 400px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 800px) {
+    .work-img {
+        width: 100%;
+    }
+}
+
+.default-text {
+    font-size: large;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 50%;
+}

@@ -1,0 +1,32 @@
+.middle-container {
+    margin: 100px 0;
+}
+
+.profile-img {
+    width: 15%;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile-img {
+        width: 40%;
+        border-radius: 100%;
+    }
+}
+
+.intro {
+    width: 70%;
+    margin: auto;
+}
+
+.emoji {
+    font-size: 1.2rem;
+}
+
+.profile {
+    padding-top: 100px;
+}
+
+.resume {
+    margin-top: 50px;
+}

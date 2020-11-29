@@ -1,0 +1,26 @@
+.top-cloud {
+    position: absolute;
+    left: 0vw;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    right: 0vw;
+  }
+
+  .top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    
+  }
+
+  .mountain {
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+
+  .title-text {
+    padding: 20px 0;
+    height: 25rem;
+  }

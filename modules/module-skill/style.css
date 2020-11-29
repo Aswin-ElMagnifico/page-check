@@ -1,0 +1,130 @@
+.skill-row {
+    margin:100px auto;
+    
+}
+
+.skill-container {
+    display: none;
+    
+    
+}
+
+.skill-slide {
+    width: 800px;
+    height: 500px;
+    
+}
+
+
+.game-screen {
+    margin: auto;
+    background-image: url("images/game-bg.png");
+    width: 800px;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+.skill-container .card {
+    width: 28vw;
+}
+
+.skill-container .row {
+    width: 100vw;
+        
+    max-width: 100%;
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .skill-row {
+        
+        margin: 100px 0;
+    }
+
+    .skill-container {
+        /* display: none; */
+        width: 100vw;
+        
+        max-width: 100%;
+       
+    }
+
+    
+    .skill-slide {
+        width: 100vw;
+        height: 300px;
+        max-width: 100%;
+        
+    }
+
+    .game-screen {
+        margin: auto;
+        background-image: url("images/game-bg.png");
+        width: 100vw;
+        max-width: 100%;
+        height: 300px;
+        background-size: 100% 100%;
+    }
+
+    .game-container {
+        width: 100vw;
+       max-width: 100%;
+      }
+
+      .kaboom {
+        position: absolute;
+        display: none;
+        background-image: url("images/boom.png");
+        width: 110vw;
+        max-width: 110%;
+        height: 200px;
+        background-size: 100% 100%;
+    }
+
+    .skill-container .card {
+        width: 90vw;
+    }
+}
+
+
+.bird {
+    position: relative;
+    background-image: url("images/bird.png");
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.m-10px {
+    margin: 10px;
+}
+
+.kaboom {
+    display: none;
+    position: absolute;
+    background-image: url("images/boom.png");
+    width: 800px;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+
+
+
+.skill-item {
+    width: 100%;
+    max-width: 100%;
+}
+
+.controllers {
+    color: #66BFBF;
+}
+
+.carousel-indicators li {
+    background-color: #66BFBF;
+}
+
+.mar-4 {
+    margin: 4rem auto;
+}
